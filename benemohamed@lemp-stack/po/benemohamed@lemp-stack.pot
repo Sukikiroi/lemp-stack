@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-12 13:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: applet.js:84
+msgid "Lemp Applet"
+msgstr ""
+
+#: applet.js:89
+msgid "Nginx Web Server"
+msgstr ""
+
+#: applet.js:90
+msgid "MySQL Server"
+msgstr ""
+
+#: applet.js:91
+msgid "PHP-FPM"
+msgstr ""
+
+#: applet.js:102
+msgid "Open Web Dir"
+msgstr ""
+
+#: applet.js:106
+msgid "Launch Web Dir"
+msgstr ""
+
+#: applet.js:110
+msgid "Launch phpMyAdmin"
+msgstr ""
+
+#: applet.js:114
+msgid "Edit default php.ini"
+msgstr ""
+
+#: applet.js:119
+msgid "Edit Nginx Conf"
+msgstr ""
+
+#: applet.js:127
+msgid "Create Vhosts"
+msgstr ""
+
+#: applet.js:134
+msgid "App Version"
+msgstr ""
+
+#: applet.js:135
+msgid "Nginx Version: "
+msgstr ""
+
+#: applet.js:138
+msgid "Mysql Version: "
+msgstr ""
+
+#: applet.js:141
+msgid "PHP Version: "
+msgstr ""
+
+#: applet.js:147
+msgid "Settings"
+msgstr ""
+
+#: applet.js:150
+msgid "what is this?"
+msgstr ""
+
+#: applet.js:171
+msgid "Nginx start"
+msgstr ""
+
+#: applet.js:174
+msgid "Nginx stop"
+msgstr ""
+
+#: applet.js:183
+msgid "Mysql start"
+msgstr ""
+
+#: applet.js:186
+msgid "Mysql stop"
+msgstr ""
+
+#: applet.js:195
+msgid "php-fpm start"
+msgstr ""
+
+#: applet.js:198
+msgid "php-fpm stop"
+msgstr ""
+
+#. metadata.json->name
+msgid "LEMP Stack"
+msgstr ""
+
+#. metadata.json->description
+msgid "A Panel Menu for LEMP Stack"
+msgstr ""
+
+#. settings-schema.json->head_version->description
+msgid "Setting: "
+msgstr ""
+
+#. settings-schema.json->PhpVerion->description
+msgid "Set php fpm version"
+msgstr ""
+
+#. settings-schema.json->PhpVerion->options
+msgid "php7.1-fpm"
+msgstr ""
+
+#. settings-schema.json->PhpVerion->options
+msgid "php7.2-fpm"
+msgstr ""
+
+#. settings-schema.json->PhpVerion->options
+msgid "php7.3-fpm"
+msgstr ""
+
+#. settings-schema.json->PhpVerion->options
+msgid "php7.4-fpm"
+msgstr ""
+
+#. settings-schema.json->WebDir->description
+msgid "Web Dir"
+msgstr ""
+
+#. settings-schema.json->NginxConf->description
+msgid "Nginx Config Dir"
+msgstr ""
+
+#. settings-schema.json->WebHost->description
+msgid "Host Name"
+msgstr ""
+
+#. settings-schema.json->head_sound->description
+msgid "sound alert"
+msgstr ""
+
+#. settings-schema.json->useSoundAlert->description
+msgid "Emit an audible alert when SERVICE shuts down."
+msgstr ""
+
+#. settings-schema.json->useSoundAlert->tooltip
+msgid ""
+"Checking this allows this applet to emit an audible alert when SERVICE shuts"
+" down."
+msgstr ""
