@@ -22,7 +22,7 @@ const COMMAND_STOP_MYSQL = "service mysql stop";
 const COMMAND_START_PHP = "service php7.0-fpm restart";
 const COMMAND_STOP_PHP = "service php7.0-fpm stop";
 const COMMAND_NGINX_CONFIG_EDIT = "nemo /etc/nginx/sites-available/";
-const COMMAND_PHP_CONFIG_EDIT = "sudo xed /etc/php5/apache2/php.ini";
+const COMMAND_PHP_CONFIG_EDIT = "xdg-open /etc/php/7.0/fpm/php.ini";
 const COMMAND_LAUNCH_PHPMYADMIN = "xdg-open http://localhost/phpmyadmin/";
 const COMMAND_LAUNCH_WEBDIR = "xdg-open http://localhost/";
 const COMMAND_OPEN_WEBDIR = "nemo /var/www/";
@@ -48,6 +48,18 @@ class LempStack extends Applet.TextIconApplet {
         this.settings.bindProperty(Settings.BindingDirection.BIDIRECTIONAL,
             "PhpVerion",
             "PhpVerion",
+            this.on_settings_changed,
+            null);
+
+        this.settings.bindProperty(Settings.BindingDirection.BIDIRECTIONAL,
+            "WebDir",
+            "WebDir",
+            this.on_settings_changed,
+            null);
+
+        this.settings.bindProperty(Settings.BindingDirection.BIDIRECTIONAL,
+            "WebHost",
+            "WebHost",
             this.on_settings_changed,
             null);
 
@@ -100,7 +112,8 @@ class LempStack extends Applet.TextIconApplet {
         });
 
         this.menu.addAction(_("Edit default php.ini"), function (event) {
-            Util.spawnCommandLine(COMMAND_PHP_CONFIG_EDIT);
+            // Util.spawnCommandLine('xed /etc/php/' + this.PhpVerion + '/fpm/php.ini');
+            Util.spawnCommandLine('xed /etc/php/' + this.PhpVerion + '/fpm/php.ini');
         });
 
         this.menu.addAction(_("Edit Nginx Conf"), function (event) {

@@ -5,19 +5,24 @@
     },
     "PhpVerion": {
         "type": "radiogroup",
-        "default": "php7.0-fpm",
+        "default": "7.0",
         "description": "Set php fpm version",
         "options": {
-            "php7.1-fpm": "php7.1-fpm",
-            "php7.2-fpm": "php7.2-fpm",
-            "php7.3-fpm": "php7.3-fpm",
-            "php7.4-fpm": "php7.4-fpm"
+            "php7.1-fpm": "7.0",
+            "php7.2-fpm": "7.1",
+            "php7.3-fpm": "7.2",
+            "php7.4-fpm": "7.3"
         }
     },
     "WebDir": {
         "type": "entry",
         "default": "/var/www/",
         "description": "Web Dir"
+    },
+    "NginxConf": {
+        "type": "entry",
+        "default": "/etc/nginx/sites-available/",
+        "description": "Nginx Config Dir"
     },
     "WebHost": {
         "type": "entry",
