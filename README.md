@@ -1,6 +1,6 @@
 # LEMP Stack - A Cinnamon applet
 
-To use this applets recording functionality you must have the following packages installed.
+To use this applets you must have the following packages installed.
 
 - nginx
 - php-fpm
