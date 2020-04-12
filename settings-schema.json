@@ -1,0 +1,37 @@
+{
+    "head_version": {
+        "type": "header",
+        "description": "Setting: "
+    },
+    "PhpVerion": {
+        "type": "radiogroup",
+        "default": "php7.0-fpm",
+        "description": "Set php fpm version",
+        "options": {
+            "php7.1-fpm": "php7.1-fpm",
+            "php7.2-fpm": "php7.2-fpm",
+            "php7.3-fpm": "php7.3-fpm",
+            "php7.4-fpm": "php7.4-fpm"
+        }
+    },
+    "WebDir": {
+        "type": "entry",
+        "default": "/var/www/",
+        "description": "Web Dir"
+    },
+    "WebHost": {
+        "type": "entry",
+        "default": "http://localhost/",
+        "description": "Host Name"
+    },
+    "head_sound": {
+        "type": "header",
+        "description": "sound alert"
+    },
+    "useSoundAlert": {
+        "type": "switch",
+        "default": true,
+        "description": "Emit an audible alert when SERVICE shuts down.",
+        "tooltip": "Checking this allows this applet to emit an audible alert when SERVICE shuts down."
+    }
+}
